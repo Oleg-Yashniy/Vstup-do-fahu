@@ -19,6 +19,6 @@ while True:
         print("Unsuccesfull operation")
     if result is not None:
         print("Result:",result)
-    end = input("Enter to continue Back to leave")
+    end = input("Enter to continue or Back to leave")
     if end == ("Back"):
         break
